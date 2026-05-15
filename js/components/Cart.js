@@ -5,7 +5,7 @@ window.renderCart = function() {
 
     const content = document.getElementById('cart-content');
     if (!content) return;
-
+ 
     if (window.state.cart.length === 0) {
         content.innerHTML = `
             <div style="text-align: center; padding: 4rem; background: var(--surface-color); border-radius: var(--radius-md);">
