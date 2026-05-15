@@ -1,0 +1,44 @@
+/* === Responsive Design === */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* In a real app, implement mobile menu */
+    }
+    
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        padding: 2rem;
+        text-align: center;
+    }
+    .hero p {
+        max-width: 100%;
+    }
+
+    .shop-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .product-detail-layout {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .cart-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .checkout-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}
